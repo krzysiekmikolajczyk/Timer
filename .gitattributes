@@ -1,1 +1,2 @@
-dist/**/*.html linguist-vendored
+*.html linguist-vendored
+*.toc linguist-vendored
