@@ -323,6 +323,7 @@ def setgoal():
             gorm = goalentry.get()
             if gorm.isdigit() and int(gorm) < 60:
                 timegoal.append(gorm)
+                goallabel.configure(text='changing goal in process...')
                 # print(timegoal)
                 updprog = True
                 beeped = False
